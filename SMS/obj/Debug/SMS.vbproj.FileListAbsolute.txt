@@ -9,3 +9,14 @@ C:\Users\Tedbu\source\repos\SMS\obj\Debug\SMS.vbproj.GenerateResource.cache
 C:\Users\Tedbu\source\repos\SMS\obj\Debug\SMS.exe
 C:\Users\Tedbu\source\repos\SMS\obj\Debug\SMS.xml
 C:\Users\Tedbu\source\repos\SMS\obj\Debug\SMS.pdb
+C:\Users\Tedbu\source\repos\ELECTIVE3-CSAS\SMS\bin\Debug\SMS.exe.config
+C:\Users\Tedbu\source\repos\ELECTIVE3-CSAS\SMS\bin\Debug\SMS.exe
+C:\Users\Tedbu\source\repos\ELECTIVE3-CSAS\SMS\bin\Debug\SMS.pdb
+C:\Users\Tedbu\source\repos\ELECTIVE3-CSAS\SMS\bin\Debug\SMS.xml
+C:\Users\Tedbu\source\repos\ELECTIVE3-CSAS\SMS\obj\Debug\SMS.vbprojAssemblyReference.cache
+C:\Users\Tedbu\source\repos\ELECTIVE3-CSAS\SMS\obj\Debug\SMS.SMS_Form.resources
+C:\Users\Tedbu\source\repos\ELECTIVE3-CSAS\SMS\obj\Debug\SMS.Resources.resources
+C:\Users\Tedbu\source\repos\ELECTIVE3-CSAS\SMS\obj\Debug\SMS.vbproj.GenerateResource.cache
+C:\Users\Tedbu\source\repos\ELECTIVE3-CSAS\SMS\obj\Debug\SMS.exe
+C:\Users\Tedbu\source\repos\ELECTIVE3-CSAS\SMS\obj\Debug\SMS.xml
+C:\Users\Tedbu\source\repos\ELECTIVE3-CSAS\SMS\obj\Debug\SMS.pdb

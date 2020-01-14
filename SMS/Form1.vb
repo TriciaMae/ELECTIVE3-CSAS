@@ -1,20 +1,19 @@
 ﻿Imports System.Net
 Public Class SMS_Form
-    Function itexmo(ByVal WALANGPASOK As String, ByVal Message As String, ByVal API_Code As String)
+    Function TxtMsg(ByVal mob_num As String, ByVal msg As String, ByVal api As String)
         Using client As New Net.WebClient
             Dim parameter As New Specialized.NameValueCollection
             Dim url As String = "https://www.itexmo.com/php_api/api.php"
-            parameter.Add("1", mob_num.Text)
-            parameter.Add("2", msg.Text)
-            parameter.Add("3", api.Text)
-            parameter.Add("6", WALANGPASOK)
+            parameter.Add("1", mob_num)
+            parameter.Add("2", msg)
+            parameter.Add("3", api)
             Dim rpb = client.UploadValues(url, "POST", parameter)
-            itexmo = (New System.Text.UTF8Encoding).GetString(rpb)
+            TxtMsg = (New System.Text.UTF8Encoding).GetString(rpb)
         End Using
     End Function
 
     Private Sub SendBtn_Click(sender As Object, e As EventArgs) Handles SendBtn.Click
-        Dim result = itexmo(mob_num.Text, msg.Text, api.Text)
+        Dim result = TxtMsg(mob_num.Text, msg.Text, api.Text)
         If result = 0 Then
             MsgBox("Message Sent!")
         Else
